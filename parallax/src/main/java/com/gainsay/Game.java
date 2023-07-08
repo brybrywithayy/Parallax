@@ -18,6 +18,7 @@ public class Game {
         return pilot2;
     }
 
+
     /*
      * We don't want this logic here
      * Need to use the Game() constructor to create a match then run the match
@@ -37,4 +38,4 @@ public class Game {
 //             }
 //         }
 //     }
-// }
+}
