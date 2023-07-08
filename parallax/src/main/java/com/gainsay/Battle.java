@@ -1,11 +1,11 @@
 package com.gainsay;
 
-public class Game {
+public class Battle {
     private Pilot pilot1;
     private Pilot pilot2;
 
     // default constructor to create a new round
-    public Game(Pilot pilot1, Pilot pilot2) {
+    public Battle(Pilot pilot1, Pilot pilot2) {
         this.pilot1 = pilot1;
         this.pilot2 = pilot2;
     }
@@ -21,10 +21,10 @@ public class Game {
 
     /*
      * We don't want this logic here
-     * Need to use the Game() constructor to create a match then run the match
+     * Need to use the Battle() constructor to create a match then run the match
      * elsewhere?
      */
-//     public void startNewGame(Pilot pilot1, Pilot pilot2) {
+//     public void startNewBattle(Pilot pilot1, Pilot pilot2) {
 //         while(pilot1.getShip().getHealth() > 0 && pilot2.getShip().getHealth() > 0) {
 //             // ships attack each other
 //             // TODO: add logic for calculating and applying damage
