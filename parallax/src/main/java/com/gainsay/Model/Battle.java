@@ -1,4 +1,4 @@
-package com.gainsay;
+package com.gainsay.Model;
 
 public class Battle {
     private Pilot pilot1;

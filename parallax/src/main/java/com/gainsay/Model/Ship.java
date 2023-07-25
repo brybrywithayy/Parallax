@@ -1,4 +1,4 @@
-package com.gainsay;
+package com.gainsay.Model;
 
 public abstract class Ship {
     private String shipName;

@@ -1,4 +1,4 @@
-package com.gainsay;
+package com.gainsay.Model;
 
 import java.util.Map;
 import java.util.HashMap;
