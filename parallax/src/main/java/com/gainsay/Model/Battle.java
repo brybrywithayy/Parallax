@@ -14,8 +14,17 @@ public class Battle {
     public Pilot getPilot1() {
         return pilot1;
     }
+
+    public void setPilot1(Pilot pilot) {
+        this.pilot1 = pilot;
+    }
+
     public Pilot getPilot2() {
         return pilot2;
+    }
+
+    public void setPilot2(Pilot pilot) {
+        this.pilot2 = pilot;
     }
 
 
