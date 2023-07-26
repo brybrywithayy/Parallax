@@ -10,7 +10,7 @@ public class Battle {
         this.pilot2 = pilot2;
     }
 
-    // getters
+    // getters and setters
     public Pilot getPilot1() {
         return pilot1;
     }
