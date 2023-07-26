@@ -1,7 +1,6 @@
 package com.gainsay.Model;
 
 import java.util.Map;
-import java.util.HashMap;
 
 public class Faction {
     private String factionName;
