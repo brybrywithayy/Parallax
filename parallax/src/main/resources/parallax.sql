@@ -36,24 +36,25 @@ The following are all the predetermined factions that should initialize with the
  */
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Tau Ceti Yetis', 'Tau Ceti', '...');
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Arcturus Marauders', 'Arcturus', '...');
-INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('The Archambaults', 'Poitou', '...');
+INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('The Archambaults', 'Potoo', '...');
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('LP 944-020 1337', 'LP 944-020', '...');
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Ice Storm Squad', 'Luyten''s Star', '...');
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Free Company', '61 Cygni', '...');
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Oasis Gigafighters Sponsored by Coffee El Rancho''s Subwiches Grill', '', '...');
-INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Faraday Rocksteadies', '', '...');
-INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Westerfield Catamounts', '', '...');
-INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Vo Starcrushers', '', '...');
-INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Ross Ringleaders', '', '...');
+INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Faraday Rocksteadies', '17 Draconis', '...');
+INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Westerfield Catamounts', '33 G. Canis Majoris', '...');
+INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Vo Starcrushers', 'Eta Grus', '...');
+INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('The Cranberries', 'Alioth', '...');
+INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Ross Ringleaders', 'Ross 128', '...');
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Ganglion Horizons', '', '...');
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Fadden Veli Brotherhood', '', '...');
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Ray City Funk', 'Ray City Station, Sol', '...');
-INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Wolf Tide', '', '...');
+INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Wolf Tide', 'Wolf 1061', '...');
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('Argera Redeemers', '', '...');
 INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('The Legacy', '', 'where all the dead pilots go...');
 
 /*
-Pilots for Tau Ceti and their ships
+Pilots for Tau Ceti and their ships (1)
 */
 INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Judge O''Pizza', 'Uncooked dough', 1);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Pasta Fazool', 'Mac Blaster');
@@ -71,7 +72,7 @@ INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Rosa Cavador', 'Kinke
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Knockout', 'Hose Em Down');
 
 /*
-Pilots and ships for Arcturus Marauders
+Pilots and ships for Arcturus Marauders (2)
 */
 INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Halfsa Downs', 'Gambling for children', 6);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Gamblin'' Man', 'Snake Eyes');
@@ -90,12 +91,12 @@ INSERT INTO ship (ship_name, weapon_name) VALUES ('Bahama Mama', 'Silt Managemen
 
 
 /*
-Pilots and ships for the Archambaults
+Pilots and ships for the Archambaults (3)
 */
 
 
 /*
-Pilots and ships for LP 944-020 1337
+Pilots and ships for LP 944-020 1337 (4)
 */
 INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('DJ Tryptamine', 'Created a spark between two people, ultimately killing them both', 11);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Brain-o-Vision', 'Neuro Tricks');
@@ -111,3 +112,55 @@ INSERT INTO ship (ship_name, weapon_name) VALUES ('[No Entry]', 'sdfdfdfdffdfdfd
 
 INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Ed Jones', 'Ketchup [redacted] [redacted]', 15);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Condiment Blast', '57th Variety');
+
+/*
+Pilots and ships for Ice Storm Squad (5)
+*/
+
+/*
+Pilots and ships for Free Company (6)
+*/
+
+/*
+Pilots and ships for Oasis Gigafighters Sponsored by Coffee El Rancho's Subwiches Grill (7)
+*/
+
+/*
+Pilots and ships for Faraday Rocksteadies (8)
+*/
+
+/*
+Pilots and ships for Westerfield Catamounts (9)
+*/
+
+/*
+Pilots and ships for Vo Starcrushers (10)
+*/
+
+/*
+Pilots and ships for The Cranberries (11)
+*/
+
+/*
+Pilots and ships for Ross Ringleaders (12)
+*/
+
+/*
+Pilots and ships for Ganglion Horizons (13)
+*/
+
+/*
+Pilots and ships for Fadden Veli Brotherhood (14)
+*/
+
+/*
+Pilots and ships for Ray City Funk (15)
+*/
+
+/*
+Pilots and ships for Wolf Tide (16)
+*/
+
+/*
+Pilots and ships for Argera Redeemers (17)
+*/
