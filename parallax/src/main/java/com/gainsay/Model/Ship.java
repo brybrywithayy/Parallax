@@ -23,21 +23,37 @@ public abstract class Ship {
         this.damage = 10;
     }
 
-    // getters
+    // getters and setters
     public String getShipName() {
         return shipName;
+    }
+
+    public void setShipName(String shipName) {
+        this.shipName = shipName;
     }
 
     public int getHealth() {
         return health;
     }
 
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
     public int getSpeed() {
         return speed;
     }
 
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
     public int getDamage() {
         return damage;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
     }
 }
 
