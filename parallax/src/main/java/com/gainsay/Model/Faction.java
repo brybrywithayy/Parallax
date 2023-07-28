@@ -1,6 +1,6 @@
 package com.gainsay.Model;
 
-import java.util.Map;
+import java.util.List;
 
 public class Faction {
     private String factionName;
@@ -8,14 +8,14 @@ public class Faction {
     private String description;
     private int wins;
     private int losses;
-    Map<String, Pilot> pilots;
+    List<Pilot> pilots;
 
     public Faction() {
     }
 
-    // full args constructor - Testing ONLY
+    // full args constructor - for use with FactionFactory
     public Faction(String factionName, String homeSystem, String description, 
-                   int wins, int losses, Map<String, Pilot> pilots) {
+                   int wins, int losses, List<Pilot> pilots) {
         this.factionName = factionName;
         this.homeSystem = homeSystem;
         this.description = description;
@@ -24,15 +24,14 @@ public class Faction {
         this.pilots = pilots;
     }
 
-    // preferred constructor - does not include wins and losses
+    // constructor - missing pilot hashmap for use with DAO
     public Faction(String factionName, String homeSystem, String description,
-                   Map<String, Pilot> pilots) {
+                   int wins, int losses) {
         this.factionName = factionName;
         this.homeSystem = homeSystem;
         this.description = description;
-        this.wins = 0;
-        this.losses = 0;
-        this.pilots = pilots;
+        this.wins = wins;
+        this.losses = losses;
     }
 
     // getters
@@ -75,11 +74,11 @@ public class Faction {
         this.losses = losses;
     }
 
-    public Map<String, Pilot> getPilots() {
+    public List<Pilot> getPilots() {
         return pilots;
     }
 
-    public void setPilots(Map<String, Pilot> pilots) {
+    public void setPilots(List<Pilot> pilots) {
         this.pilots = pilots;
     }
 }
