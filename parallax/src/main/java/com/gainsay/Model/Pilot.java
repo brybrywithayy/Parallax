@@ -11,7 +11,7 @@ public class Pilot {
 
     }
 
-    // full args constructor - Testing ONLY
+    // full args constructor
     public Pilot(String name, String crime, Ship ship, int wins, int losses) {
         this.name = name;
         this.crime = crime;

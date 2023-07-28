@@ -1,6 +1,7 @@
 package com.gainsay.Model;
 
 public abstract class Ship {
+    private int shipId;
     private String shipName;
     private int health;
     private int speed;
@@ -9,21 +10,23 @@ public abstract class Ship {
 
     // Super class constructors
     // full args for testing
-    public Ship(String shipName, int health, int speed, int damage) {
+    public Ship(int shipId, String shipName, int health, int speed, int damage) {
+        this.shipId = shipId;
         this.shipName = shipName;
         this.health = health;
         this.speed = speed;
         this.damage = damage;
     }
 
-    public Ship(String shipName) {
-        this.shipName = shipName;
-        this.health = 100;
-        this.speed = 50;
-        this.damage = 10;
+    // getters and setters
+    public int getShipId() {
+        return shipId;
     }
 
-    // getters and setters
+    public void setShipId(int shipId) {
+        this.shipId = shipId;
+    }
+
     public String getShipName() {
         return shipName;
     }
@@ -60,19 +63,19 @@ public abstract class Ship {
 // TODO: change these constructors to modify health, speed, and damage appropriately
 
 class FastShip extends Ship {
-    public FastShip(String shipName, int health, int speed, int damage) {
-        super(shipName, 5, 15, 10);
+    public FastShip(int shipId, String shipName, int health, int speed, int damage) {
+        super(shipId, shipName, 5, 15, 10);
     }
 }
 
 class ToughShip extends Ship {
-    public ToughShip(String shipName, int health, int speed, int damage) {
-        super(shipName, 15, 10, 5);
+    public ToughShip(int shipId, String shipName, int health, int speed, int damage) {
+        super(shipId, shipName, 15, 10, 5);
     }
 }
 
 class StrongShip extends Ship {
-    public StrongShip(String shipName, int health, int speed, int damage) {
-        super(shipName, 10, 5, 15);
+    public StrongShip(int shipId, String shipName, int health, int speed, int damage) {
+        super(shipId, shipName, 10, 5, 15);
     }
 }
