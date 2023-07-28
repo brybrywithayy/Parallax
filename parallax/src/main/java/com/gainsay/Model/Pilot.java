@@ -1,23 +1,27 @@
 package com.gainsay.Model;
 
 public class Pilot {
+    private int pilotId;
     private String name;
     private String crime;
     private Ship ship;
     private int wins;
     private int losses;
+    private int factionId;
 
     public Pilot() {
 
     }
 
     // full args constructor
-    public Pilot(String name, String crime, Ship ship, int wins, int losses) {
+    public Pilot(int pilotId, String name, String crime, Ship ship, int wins, int losses, int factionId) {
+        this.pilotId = pilotId;
         this.name = name;
         this.crime = crime;
         this.ship = ship;
         this.wins = wins;
         this.losses = losses;
+        this.factionId = factionId;
     }
 
     // preferred constructor

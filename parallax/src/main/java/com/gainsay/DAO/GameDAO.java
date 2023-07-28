@@ -30,7 +30,7 @@ public class GameDAO {
                 String description = rs.getString("description");
                 int wins = rs.getInt("wins");
                 int losses = rs.getInt("losses");
-                Map<Pilot> pilots = new HashMap<>();
+                List<Pilot> pilots = new HashMap<>();  // TODO: write method to populate pilot list
 
                 return faction;
             }
@@ -51,7 +51,7 @@ public class GameDAO {
             if (rs.next()) {
                 String name = rs.getString("name");
                 String crime = rs.getString("crime");
-                Ship ship = getShipById("ship_id")
+                Ship ship = getShipById("ship_id")  // TODO: get method to feed correct ship
                 int wins = rs.getInt("wins");
                 int losses = rs.getInt("losses");
                 return new Pilot(name, crime, ship, wins, losses);
