@@ -217,142 +217,142 @@ INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 /*
 Pilots and ships for Vo Starcrushers (10)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Jimmy Salsa', '[Redacted] fraud', 46);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Jimmy Salsa', '[Redacted] fraud', 46, 10);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Disfigured Butcher', 'Untamed Suspension');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Haywood Vanmeter', 'Purse snatching', 47);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Haywood Vanmeter', 'Purse snatching', 47, 10);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Prime Overlord', 'Malice Diamond');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Bass Weems', 'Body possession', 48);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Bass Weems', 'Body possession', 48, 10);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Partial Form', 'Spectacle Razor');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Luna Faustus', 'Demon summoning of the "Blood Grunyon"', 49);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Luna Faustus', 'Demon summoning of the "Blood Grunyon"', 49, 10);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Eve of Mutruq', 'Bone Ragnarok');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Echo Echo', 'Taking a non-corporeal form and killing the entire city of [Redacted]', 50);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Echo Echo', 'Taking a non-corporeal form and killing the entire city of [Redacted]', 50, 10);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Mindless', 'Amnesia Leviathan');
 
 /*
 Pilots and ships for The Cranberries (11)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Tacoman Cheese', 'Said was gas, but not gay enough (ie: would not wear a pink ballcap)', 51);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Tacoman Cheese', 'Said was gas, but not gay enough (ie: would not wear a pink ballcap)', 51, 11);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Cheese-O-Squeeze', 'Boiling Queso');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Vaminos Brymo', 'Electric-slided the wrong direction', 52);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Vaminos Brymo', 'Electric-slided the wrong direction', 52, 11);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Insufficient Praise', 'Go Crazy');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Fluffy "Fluffy" Mullida', 'Notorious smoothie smuggler', 53);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Fluffy "Fluffy" Mullida', 'Notorious smoothie smuggler', 53, 11);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Dados Borrosos', 'Comically-sized Blender');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Tom Knits', 'Won too many pun competitions', 54);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Tom Knits', 'Won too many pun competitions', 54, 11);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Big Dumb', 'Go Stupid');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Catfish Prangle', 'Climbed on land as a fish and discovered THEY were the missing link', 55);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Catfish Prangle', 'Climbed on land as a fish and discovered THEY were the missing link', 55, 11);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Danger Dangle', 'Power Stangle');
 
 /*
 Pilots and ships for Ross Ringleaders (12)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Canoda Birthday', '', 56);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Canoda Birthday', '', 56, 12);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Warm Whirlwind', 'Hot Dancer');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Yael Voracious', '', 57);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Yael Voracious', '', 57, 12);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Dazzling Phoenix', 'Father Shadow');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Elowen Riay', '', 58);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Elowen Riay', '', 58, 12);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Dirty Guardian', 'Aching Halo');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Dandwich Smoth', '', 59);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Dandwich Smoth', '', 59, 12);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Twilight Bird', 'Blank Venus');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Keera Crommons', '', 60);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Keera Crommons', '', 60, 12);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Jumbo Behemoth', 'Empty Guardian');
 
 /*
 Pilots and ships for Ganglion Horizons (13)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Dropkick Snowman', 'Went ape shit at the Ganglion Ape Shit Convention', 61);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Dropkick Snowman', 'Went ape shit at the Ganglion Ape Shit Convention', 61, 13);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Light Frostbight', 'The Original Spectator');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Henderson Reeft', 'Wore a coat in the summer', 62);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Henderson Reeft', 'Wore a coat in the summer', 62, 13);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Creepy Whisper', 'Blissful Stinger');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Lennard Entirely', 'Wrote a fake horoscope column', 63);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Lennard Entirely', 'Wrote a fake horoscope column', 63, 13);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Lazy Supernova', 'Hasty Apocalypse');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Forrest Lad', 'Krumped in the forest, alone', 64);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Forrest Lad', 'Krumped in the forest, alone', 64, 13);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Haunting Lotus', 'Quiet Swordsman');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Pet Graves', 'tied Mingrove Styleman''s shoelaces together', 65);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Pet Graves', 'tied Mingrove Styleman''s shoelaces together', 65, 13);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Flawless Biscuit', 'Awkward Pancake');
 
 /*
 Pilots and ships for Fadden Veli Brotherhood (14)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Nicely Nicelton', '', 66);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Nicely Nicelton', '', 66, 14);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Francois Dramm', '', 67);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Francois Dramm', '', 67, 14);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Tangerine Enhancer', '', 68);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Tangerine Enhancer', '', 68, 14);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Barry McGawkener', '', 69);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Barry McGawkener', '', 69, 14);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Feather Termite', '', 70);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Feather Termite', '', 70, 14);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
 /*
 Pilots and ships for Ray City Funk (15)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Donovan Askew', 'Shoplifting', 71);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Donovan Askew', 'Shoplifting', 71, 15);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Giant''s Husk', 'Suffering''s End');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Orville Malone', 'Perjury', 72);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Orville Malone', 'Perjury', 72, 15);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Infecting Bone', 'Suffering''s End');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Adela Fuentes', 'Pyramid scheme', 73);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Adela Fuentes', 'Pyramid scheme', 73, 15);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Ghost Fat', 'End Source');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Shorty Meeks', 'Racketeering', 74);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Shorty Meeks', 'Racketeering', 74, 15);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Wolpertinger', 'Incarcerated Golden');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Child Barbosa', '[Redacted]', 75);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Child Barbosa', '[Redacted]', 75, 15);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Biff', 'Doom');
 
 /*
 Pilots and ships for Wolf Tide (16)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Baggie Carrots', 'Recovered from alcoholism', 76);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Baggie Carrots', 'Recovered from alcoholism', 76, 16);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Earned Certificate', 'Super Degree');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Onbrand Papercut', 'Long legs stepping', 77);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Onbrand Papercut', 'Long legs stepping', 77, 16);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Stolen Notebook', 'Broken Ram');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Ramblewood Marion', 'Bnuddle', 78);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Ramblewood Marion', 'Bnuddle', 78, 16);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Puddle', 'Skuddle');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Mahrah Framah', 'Paid the debts of their friends', 79);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Mahrah Framah', 'Paid the debts of their friends', 79, 16);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('30 Seconds Later', 'Two Tugs');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Megan the Indifferent', 'Skateboarded into the sunset', 80);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Megan the Indifferent', 'Skateboarded into the sunset', 80, 16);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('More Emergency', 'Even More Emergency');
 /*
 Pilots and ships for Argera Redeemers (17)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Southern Routes', 'Racist', 81);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Southern Routes', 'Racist', 81, 17);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Sweet Summer Child', 'The Good Word');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Rock Puncher', 'Punched a rock', 82);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Rock Puncher', 'Punched a rock', 82, 17);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Metamorphic Mandible', 'Mineral Muncher');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Jury Sunfield', '[''dacted]', 83);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Jury Sunfield', '[''dacted]', 83, 17);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('A Ship About Nothing', 'Four Fingers');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Bogfeet', 'Being a cryptid', 84);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Bogfeet', 'Being a cryptid', 84, 17);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Rawrrghgh', 'Breweeegggh');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Caroline Jefferies', 'Walked and chewed gum', 85);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Caroline Jefferies', 'Walked and chewed gum', 85, 17);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Waffle Royale', 'With Cheese');
