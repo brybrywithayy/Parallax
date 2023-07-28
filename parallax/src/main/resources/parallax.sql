@@ -56,162 +56,162 @@ INSERT INTO faction (fac_name, fac_homesystem, fac_description) VALUES ('The Leg
 /*
 Pilots for Tau Ceti and their ships (1)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Judge O''Pizza', 'Uncooked dough', 1);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Judge O''Pizza', 'Uncooked dough', 1, 1);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Pasta Fazool', 'Mac Blaster');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Trinidad Chasm', 'Jaywalking', 2);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Trinidad Chasm', 'Jaywalking', 2, 1);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('The Depths', 'Abysmo');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Erasmus Zementmisch', 'Talked during jury duty', 3);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Erasmus Zementmisch', 'Talked during jury duty', 3 , 1);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Sidewalk Sale', 'Rubblestone Rock');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Leonna Moon', 'Forged backstage passes', 4);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Leonna Moon', 'Forged backstage passes', 4);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Waxin on Wanin', 'Sea of Cold');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Rosa Cavador', 'Kinked a hose and sprayed her brother in the face', 5);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Rosa Cavador', 'Kinked a hose and sprayed her brother in the face', 5, 1);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Knockout', 'Hose Em Down');
 
 /*
 Pilots and ships for Arcturus Marauders (2)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Halfsa Downs', 'Gambling for children', 6);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Halfsa Downs', 'Gambling for children', 6, 2);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Gamblin'' Man', 'Snake Eyes');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Penny Churg', 'Mugging, but for a camera', 7);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Penny Churg', 'Mugging, but for a camera', 7, 2);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Mr. Churg', 'Quarters in a Sock');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Big League Ruby', 'Tea-bagged a person in real life', 8);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Big League Ruby', 'Tea-bagged a person in real life', 8, 2);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('The Dugout', 'Grand Slam');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Terry "Teri" Lee', 'Slept on the roof of a senator''s house', 9);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Terry "Teri" Lee', 'Slept on the roof of a senator''s house', 9, 2);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Clamma Slamma', 'Sunday Jamma');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Brooke Rivera', 'Sold gold without a permit', 10);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Brooke Rivera', 'Sold gold without a permit', 10, 2);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Bahama Mama', 'Silt Management');
 
 /*
 Pilots and ships for LP 944-020 1337 (3)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('DJ Tryptamine', 'Created a spark between two people, ultimately killing them both', 11);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('DJ Tryptamine', 'Created a spark between two people, ultimately killing them both', 11, 3);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Brain-o-Vision', 'Neuro Tricks');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('EKG-205 LIFESCAN', 'Killed someone by discharging', 12);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('EKG-205 LIFESCAN', 'Killed someone by discharging', 12, 3);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('CONVEYENCE_MACHINE', 'SHOCKER');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Petrichor Howie', 'Stole $5 of gum', 13);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Petrichor Howie', 'Stole $5 of gum', 13, 3);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Quiet Storm', 'Satan''s Nostrils');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Englewood', 'Evaded jury duty by turning himself into a tree', 14);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Englewood', 'Evaded jury duty by turning himself into a tree', 14, 3);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('[No Entry]', 'sdfdfdfdffdfdfddf');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Ed Jones', 'Ketchup [redacted] [redacted]', 15);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Ed Jones', 'Ketchup [redacted] [redacted]', 15, 3);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Condiment Blast', '57th Variety');
 
 /*
 Pilots and ships for Ice Storm Squad (4)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('MC Phenethylamine', 'Was a comedian, laughed off stage. Fell on a person and killed them', 16);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('MC Phenethylamine', 'Was a comedian, laughed off stage. Fell on a person and killed them', 16, 4);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Axon', 'the Stimulizer');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('ECG-333 VIVASCAN', 'Refused to show anyone''s heartbeat as it goes against their religion', 17);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('ECG-333 VIVASCAN', 'Refused to show anyone''s heartbeat as it goes against their religion', 17, 4);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('FLY_ME_AWAY_BABY', 'QRS_Complex');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Anosmic Patricia', 'Stultified her local representative', 18);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Anosmic Patricia', 'Stultified her local representative', 18, 4);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Cleaned Up', 'Glucocorticoid');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Lutea Ficus', 'Did not use industry standard', 19);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Lutea Ficus', 'Did not use industry standard', 19, 4);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Life Finds Away', 'Figs Time');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('The Mustarch', 'Impersonating a person of higher stature', 20);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('The Mustarch', 'Impersonating a person of higher stature', 20, 4);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('The Throne', 'Sword of Mercy');
 /*
 Pilots and ships for the Archambaults (5)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Jesse Burns', '', 21);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Jesse Burns', '', 21, 5);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Sam Fuego', '', 22);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Sam Fuego', '', 22, 5);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Morgan Melendez', '', 23);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Morgan Melendez', '', 23, 5);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Tracy Papers', '', 24);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Tracy Papers', '', 24, 5);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Kit Peck', '', 25);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Kit Peck', '', 25, 5);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
 /*
 Pilots and ships for Free Company (6)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Instant Noodles', 'They ate someone', 26);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Instant Noodles', 'They ate someone', 26, 6);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Cup of Rammin''', 'Flavor Pack');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Bomb Box', 'They ate someone', 27);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Bomb Box', 'They ate someone', 27, 6);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Red Wire', 'Green Wire');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Reginald Heap', 'They ate someone', 28);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Reginald Heap', 'They ate someone', 28, 6);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Bears with Knives', 'Knifeopult');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Larrchibald Sweets', 'They ate someone', 29);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Larrchibald Sweets', 'They ate someone', 29, 6);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Candy Stand', 'Workin for the Weekend');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Ross Vegas', 'Cannibalism', 30);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Ross Vegas', 'Cannibalism', 30, 6);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('Penny Slots', 'Jackpot!');
 
 /*
 Pilots and ships for Oasis Gigafighters Sponsored by Coffee El Rancho's Subwiches Grill (7)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('', '', 31);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('', '', 31, 7);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('', '', 32);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('', '', 32, 7);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('', '', 33);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('', '', 33, 7);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('', '', 34);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('', '', 34, 7);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('', '', 35);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('', '', 35, 7);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
 /*
 Pilots and ships for Faraday Rocksteadies (8)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('George Frightfest', '', 36);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('George Frightfest', '', 36, 8);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Philmon Lesterfield', '', 37);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Philmon Lesterfield', '', 37, 8);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Digital Wristwatch', '', 38);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Digital Wristwatch', '', 38, 8);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Numb Rightfoot', '', 39);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Numb Rightfoot', '', 39, 8);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Wentoff Queen', '', 40);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Wentoff Queen', '', 40, 8);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
 /*
 Pilots and ships for Westerfield Catamounts (9)
 */
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Main Dot Html', '', 41);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Main Dot Html', '', 41, 9);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Puma Inkwell', '', 42);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Puma Inkwell', '', 42, 9);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Mingrove Styleman', '', 43);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Mingrove Styleman', '', 43, 9);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Cougar Wrap', '', 44);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Cougar Wrap', '', 44, 9);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
-INSERT INTO pilot (pilot_name, pilot_crime, ship) VALUES ('Aina Leon', '', 45);
+INSERT INTO pilot (pilot_name, pilot_crime, ship, faction) VALUES ('Aina Leon', '', 45, 9);
 INSERT INTO ship (ship_name, weapon_name) VALUES ('', '');
 
 /*
