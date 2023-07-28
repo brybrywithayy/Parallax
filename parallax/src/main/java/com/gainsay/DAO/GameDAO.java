@@ -51,7 +51,7 @@ public class GameDAO {
             if (rs.next()) {
                 String name = rs.getString("name");
                 String crime = rs.getString("crime");
-                // Ship ship = new Ship(rs.getString("ship"));
+                Ship ship = getShipById("ship_id")
                 int wins = rs.getInt("wins");
                 int losses = rs.getInt("losses");
                 return new Pilot(name, crime, ship, wins, losses);
@@ -92,9 +92,14 @@ public class GameDAO {
             ps.setInt(1, id);
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
-                String name = rs.getString("name");
-                String homeSystem = rs.getString("homeSystem");
-                return new Ship(name, homeSystem);
+                int shipId = rs.getInt("ship_id");
+                String name = rs.getString("ship_name");
+                String weapon = rs.getString("weapon_name");
+                int health = rs.getInt("health");
+                int speed = rs.getInt("speed");
+                int damage = rs.getInt("damage");
+                Ship ship = new Ship(shipId, name, weapon, health, speed, damage);
+                return ship;
             }
         } catch (SQLException e) {
             e.printStackTrace();

@@ -3,6 +3,7 @@ package com.gainsay.Model;
 import java.util.List;
 
 public class Faction {
+    private int factionId;
     private String factionName;
     private String homeSystem;
     private String description;
@@ -14,8 +15,9 @@ public class Faction {
     }
 
     // full args constructor - for use with FactionFactory
-    public Faction(String factionName, String homeSystem, String description, 
+    public Faction(int factionId, String factionName, String homeSystem, String description, 
                    int wins, int losses, List<Pilot> pilots) {
+        this.factionId = factionId;
         this.factionName = factionName;
         this.homeSystem = homeSystem;
         this.description = description;
@@ -25,8 +27,9 @@ public class Faction {
     }
 
     // constructor - missing pilot hashmap for use with DAO
-    public Faction(String factionName, String homeSystem, String description,
+    public Faction(int factionId, String factionName, String homeSystem, String description,
                    int wins, int losses) {
+        this.factionId = factionId;
         this.factionName = factionName;
         this.homeSystem = homeSystem;
         this.description = description;
@@ -34,7 +37,15 @@ public class Faction {
         this.losses = losses;
     }
 
-    // getters
+    // getters and setters
+    public int getFactionId() {
+        return factionId;
+    }
+
+    public void setFactionId(int factionId) {
+        this.factionId = factionId;
+    }
+    
     public String getFactionName() {
         return factionName;
     }
